@@ -867,5 +867,39 @@
                 "elementURL": "https://rss.com/"
             }
         ]
+    },
+  {
+        "appName": "gpodder.net",
+        "appType": "sn website",
+        "appUrl": "https://gpodder.net/",
+        "appIconUrl": "https://gpodder.net/static/gpoddernet_228.png",
+        "platforms": ["web"],
+        "supportedElements": [
+            {
+                "elementName": "Search",
+                "elementURL": "https://gpodder.net/"
+            },
+            {
+                "elementName": "synchronize",
+                "elementURL": "https://gpodder.net/"
+            },
+            {
+                "elementName": "network",
+                "elementURL": "https://gpodder.net/"
+            }
+        ]
+    },
+  {
+        "appName": "gpodder",
+        "appType": "app",
+        "appUrl": "https://gpodder.org",
+        "appIconUrl": "https://gpodder.github.io/gpodder.png",
+        "platforms": ["macOS", "Windows", "Linux", "BSD", "Sailfish OS"],
+        "supportedElements": [
+            {
+                "elementName": "Search",
+                "elementURL": "https://gpodder.org"
+            }
+        ]
     }
 ]
